@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const Add = () => {
     return (
         <div>
+
+<Navbar/>
 
             <div className="container">
                 <div className="row">
@@ -39,7 +42,7 @@ const Add = () => {
                             </div>
 
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                                
+
                                 <button className="btn btn-success">Add Friend</button>
                          
                             </div>
